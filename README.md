@@ -82,4 +82,3 @@ diet-reveals-smoking/
 | `src/check_files.py` | Checks that all data files load |
 | `src/build_cohort.py` | Selects participants and defines smoking status |
 | `src/build_features.py` | Builds the 40 diet features |
-|
