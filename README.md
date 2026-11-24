@@ -66,6 +66,16 @@ AUC for current vs never smokers (0.5 = coin flip, 1 = perfect):
 
 **Robustness:** the gain from diet held after removing participants whose serum cotinine disagreed with their answer (ΔAUC +0.065 at 3 ng/mL) and with survey weights (+0.075).
 
+## Figures
+
+![Permutation importance of the top 15 features in the best model (test set)](figures/feature_importance.png)
+
+![Diet smoker score by time since quitting, with never and current smoker means as reference lines](figures/score_by_quit_time.png)
+
+![Diet smoker score by cigarettes per day among current smokers](figures/score_by_cigs_per_day.png)
+
+![AUC with 95% CI by sex, age and ethnicity for the demographics, diet-only and best models](figures/fairness_auc.png)
+
 ## Repository structure
 
 ```
@@ -76,6 +86,8 @@ diet-reveals-smoking/
 ├── src/           # analysis scripts
 └── README.md
 ```
+
+Install packages with: pip install -r requirements.txt
 
 | Script | What it does |
 |---|---|

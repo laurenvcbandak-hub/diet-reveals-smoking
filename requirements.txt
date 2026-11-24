@@ -1,0 +1,12 @@
+# Packages imported by the scripts in src/ (versions used for the analysis, Python 3.15.2)
+joblib==1.6.0
+matplotlib==3.11.2
+numpy==2.5.5
+pandas==3.1.1
+patsy==1.0.3          # spline formulas cr() in quit_and_dose.py (via statsmodels)
+scikit-learn==1.9.1
+scipy==1.18.1
+statsmodels==0.15.0
+
+# Optional: SHAP summary plot in explain_model.py (skipped if not installed)
+# shap
